@@ -1,24 +1,13 @@
-h4 {
-	color:pink;
+#tit {
+	background:grey;
+	font:arial;
+	color:white;
 }
-h1 {
-	color:red;
+#text {
+	font:arial;
+	color:black;
 }
-h2 {
-	color:green;
-}
-ul {
-	color:blue;
-}
-#l1 {
-	color:blue;
-}
-.img1 {
-	text-align:center;
-}
-.image2 {
-	padding-left:0px;
-}
-.image1 {
-	padding-left:0px;
+#ld {
+	background:green;
+	background-size:1px;
 }
