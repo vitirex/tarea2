@@ -1,15 +1,27 @@
 #titulos {
 	text-align:center;
 }
-legend {
-	border:1px solid black;
-	border-style:solid;
-	border-color:black;
-	border-width:thin;
-	boder-radius:25px;
-	background-color:white;
+#tit1 {
+	background-color:grey;
+	font:arial;
+	color:white;
 }
-fieldset {
-	background-color:lightgrey;
-	border-radius:25px;
+#tit2{ 
+   background-color: #1E679A; 
+   font-weight: bold; 
+   color: #ffffff; 
+   padding: 2 2 2 2px; 
+   border-color:yellow;
+} 
+#textito {
+	background-color:green;
+	color:black;
+}
+#ele1 {
+	font:arial;
+	color:red;
+}
+#ele2 {
+	font:arial;
+	color:green;
 }
