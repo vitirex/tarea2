@@ -1,13 +1,15 @@
-#tit {
-	background:grey;
-	font:arial;
-	color:white;
+#titulos {
+	text-align:center;
 }
-#text {
-	font:arial;
-	color:black;
+legend {
+	border:1px solid black;
+	border-style:solid;
+	border-color:black;
+	border-width:thin;
+	boder-radius:25px;
+	background-color:white;
 }
-#ld {
-	background:green;
-	background-size:1px;
+fieldset {
+	background-color:lightgrey;
+	border-radius:25px;
 }
