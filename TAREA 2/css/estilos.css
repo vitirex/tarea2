@@ -1,27 +1,94 @@
-#titulos {
-	text-align:center;
+#gallery-container {
+	position: relative;
+	width: 500px;
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 1px #aaaaaa solid;
 }
-#tit1 {
-	background-color:grey;
-	font:arial;
-	color:white;
+#text-container{
+    position: relative;
+	width: 360px;
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 1px #aaaaaa solid;
 }
-#tit2{ 
-   background-color: #1E679A; 
-   font-weight: bold; 
-   color: #ffffff; 
-   padding: 2 2 2 2px; 
-   border-color:yellow;
-} 
-#textito {
-	background-color:green;
+img.gallery-preview{
+  width:50px;
+	height:50px;
+  
+}
+img.gallery-fullsize {
+	position: absolute;
+	top: 50px;
+	left: 5px;
+	display: none;
+	width: 200px;
+	height: auto;
+}
+.gallery-item {
+	display: inline-block;
+}
+
+img.gallery-preview:hover ~ img.gallery-fullsize {
+	display: block;
+}
+/* Con estados los enlaces sin utilizar son de color
+EC7063 y no tienen subrayado*/
+a:link{
+	color:#EC7063;
+	text-decoration:none;
+}
+/*Con estados, los enlaces al 
+pasar el ratón por encima cambian a color verde claro*/
+a:hover {
+	color:lightgreen;
+}
+/* Con estados, los enlaces ya visitados
+serán de color azul claro*/
+a:visited {
+	color:lightblue;
+}
+/*Con posición, el primer li tendrá el fondo verde claro*/
+li:first-child {
+	background-color:lightgreen;
+}
+/*Con posición, el último hijo li del primer ul tendrá el fondo rosa*/
+li:last-child {
+	background-color:pink;
+}
+/*Con posición, el último ul tendrá un borde de 1px contínuo y negro*/
+ul:last-child {
+	border:1px double;
 	color:black;
 }
-#ele1 {
-	font:arial;
-	color:red;
+/*Con posición, el segundo hijo del último ul será de color de letra gris*/
+li:second-child ul:last-child {
+	color:grey;
 }
-#ele2 {
-	font:arial;
-	color:green;
+/*Con Pseudoelementos, la primera letra de los párrafos p será 
+2 veces más grande y de color EC7063*/
+p:first-letter{
+	font-size:250%;
+	color:#EC7063;
+}
+/* Con Peudoelementos, la primera línea de los párrafos p será un 
+20% mayor y de color (100,100,207)*/ 
+p:first-line{
+	font-size:220%;
+	color:#100100207;
+}
+/*Con Pseudoelemnetos, después de cada párrafo p se 
+añadirá el texto "Fin de Párrafo" con
+un borde azul clarito de 5px y contínuo*/
+p::after {
+ content:"Fin de Párrafo";
+ border:5px solid lightblue;
 }
