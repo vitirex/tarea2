@@ -36,7 +36,7 @@ body {
 .trescolumnas {
 	position:absolute;
 	text-align:justify;
-	padding-right:30px;
+	padding-right:50px;
 	float:center;
 	column-count:3;
 	-webkit-column-count:3;
@@ -47,11 +47,36 @@ body {
 	padding-bottom:20px;
 	padding-top:10px;
 	padding-left:200px;
-	padding-right:200px;
+	padding-right:400px;
 	margin-bottom:100px
 	width:90%;
 	height:200%;
 	justify-content:center;
+}
+
+#texto1 {
+	margin-bottom:15px;
+	border: 1px solid violet;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 10px;
+	margin:0px;
+}
+
+#texto2 {
+	border: 1px solid violet;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 10px;
+	margin:0px;
+}
+
+#texto3 {
+	border: 1px solid violet;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 10px;
+	margin:0px;
 }
 
 .trescolumnas1 {
